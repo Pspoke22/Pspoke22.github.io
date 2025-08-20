@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height">
+    <title>My profile</title>
+    <link rel="stylesheet" href="Styles.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Isaskar Shipoke</h1>
+        <button id="theme-toggle">Switch to Dark Mode</button>
+    </header>
+        <script>
+            const toggleButton = document.getElementById('theme-toggle');
+            toggleButton.addEventListener('click', () => {
+                document.body.classList.toggle('dark-mode');
+                if (document.body.classList.contains('dark-mode')) {
+                    toggleButton.textContent = 'Switch to Light Mode';
+                } else {
+                    toggleButton.textContent = 'Switch to Dark Mode';
+                }
+            });
+        </script>
+        <p>"Let's try more again..!!"</p>
+    
+    <section id="about">
+        <div class="profile-picture">
+            <img src="profilePic.jpg" alt="Profile Picture">
+        
+        <p> Software Developer</p>
+        </div>
+        </section>
+    <section id="hobbies">
+        
+    <ul>
+        <li>Coding</li>
+        <br>
+        <li>Reading</li>
+        <br>
+        <li>Traveling</li>
+                </ul>
+
+
+        
+<footer>
+    <a href="mailto:pisascar@gmail.com">pisascar@gmail.com</a>
+
+</section>
+</body>
+</header>
+</footer>
+</html> 
